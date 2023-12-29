@@ -19,15 +19,28 @@ body {
 }
 
 .sidebar {
-  width: 600px;
+  width: 300px;
   background: royalblue;
   box-sizing: border-box;
+  
 }
 
 .card {
   border: 1px solid #eee;
   box-shadow: 2px 4px 16px rgba(0,0,0,.06);
   border-radius: 4px;
+  display:flex;
+  flex-wrap: wrap;
+  flex-basis: 500px;
+  
+}
+
+.moreCards{
+  display:flex;
+  flex-wrap: wrap;
+  flex:1;
+  gap: 10px;
+  
 }
 
 .content {
@@ -37,4 +50,8 @@ body {
 
 a {
   text-decoration: none;
+}
+
+li {
+  list-style-type: none;
 }
